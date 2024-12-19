@@ -112,7 +112,7 @@ const createLaporanPage = () => {
       </label>
       <label>
         <input type="radio" name="status" value="belum di proses">
-        <span>Belum Di proses</span>
+        <span>Belum Diproses</span>
       </label>
     </form>
   `;
