@@ -5,19 +5,22 @@ class Navbar extends HTMLElement {
       <header>
         <nav>
           <div class="navbar-left">
-            <div class="logo">
-              <span class="logo-icon">S</span>
-              <span class="logo-text">SIPRAJA</span>
-            </div>
+            <a href="#/dashboard" class="logo-link">
+              <div class="logo">
+                <span class="logo-icon">S</span>
+                <span class="logo-text">SIPRAJA</span>
+              </div>
+            </a>
+          </div>
           </div>
           <div class="hamburger-navbar" id="hamburger-navbar">
             <i class="fas fa-bars"></i>
           </div>
           <ul class="navbar-menu" id="navbarMenu">
-            <li><a href="#/dashboard">Home</a></li>
+            <li><a href="#/dashboard">Beranda</a></li>
             <li><a href="#/laporan">Laporan</a></li>
             <li><a href="#/laporan-user">Laporan Kamu</a></li>
-            <li><a href="#/about">About</a></li>
+            <li><a href="#/about">Tentang Kami</a></li>
           </ul>
           <div class="navbar-right">
             <i class="fas fa-bell" id="notification-bell"></i>
@@ -50,8 +53,8 @@ class Navbar extends HTMLElement {
                 <div class="sub-menu">
                   <div class="sub-menu-list">
                     <ul>
-                      <li><a href="#/profile"><i class="fas fa-user"></i> Profile</a></li>
-                      <li><a href="#/login"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+                      <li><a href="#/profile"><i class="fas fa-user"></i> Profil</a></li>
+                      <li><a href="#/login"><i class="fas fa-sign-out-alt"></i> Keluar</a></li>
                     </ul>
                   </div>
                 </div>
