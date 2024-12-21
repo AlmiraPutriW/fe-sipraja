@@ -92,7 +92,7 @@ const createAboutPage = () => {
   devCard3.setAttribute('role', 'Front-End Web Dev');
 
   const devCard4 = document.createElement('dev-card');
-  devCard4.setAttribute('image', '../images/almira.jpg');
+  devCard4.setAttribute('image', '../images/mira.jpg');
   devCard4.setAttribute('name', 'Almira Putri Wibowo');
   devCard4.setAttribute('role', 'Bagian project 4');
 
