@@ -94,7 +94,7 @@ const createAboutPage = () => {
   const devCard4 = document.createElement('dev-card');
   devCard4.setAttribute('image', '../images/mira.jpg');
   devCard4.setAttribute('name', 'Almira Putri Wibowo');
-  devCard4.setAttribute('role', 'Bagian project 4');
+  devCard4.setAttribute('role', 'Fullstack Web Dev');
 
   developerCards.appendChild(devCard1);
   developerCards.appendChild(devCard2);
