@@ -82,9 +82,9 @@ const createAboutPage = () => {
   devCard1.setAttribute('role', 'Bagian project 1');
 
   const devCard2 = document.createElement('dev-card');
-  devCard2.setAttribute('image', '../images/profil.webp');
+  devCard2.setAttribute('image', '../images/fei.jpeg');
   devCard2.setAttribute('name', 'Feis Aulia Fatchuriani');
-  devCard2.setAttribute('role', 'Bagian project 2');
+  devCard2.setAttribute('role', 'Front-End Web Dev');
 
   const devCard3 = document.createElement('dev-card');
   devCard3.setAttribute('image', '../images/monica.png');
@@ -92,7 +92,7 @@ const createAboutPage = () => {
   devCard3.setAttribute('role', 'Front-End Web Dev');
 
   const devCard4 = document.createElement('dev-card');
-  devCard4.setAttribute('image', '../images/profil.webp');
+  devCard4.setAttribute('image', '../images/almira.jpg');
   devCard4.setAttribute('name', 'Almira Putri Wibowo');
   devCard4.setAttribute('role', 'Bagian project 4');
 
