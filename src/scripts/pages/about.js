@@ -77,9 +77,9 @@ const createAboutPage = () => {
   developerCards.className = 'developer-cards';
 
   const devCard1 = document.createElement('dev-card');
-  devCard1.setAttribute('image', '../images/profil.webp');
+  devCard1.setAttribute('image', '../images/fatiha.jpg');
   devCard1.setAttribute('name', 'Fatiha Shafiyatun Nuha');
-  devCard1.setAttribute('role', 'Bagian project 1');
+  devCard1.setAttribute('role', 'Front-End Web Dev');
 
   const devCard2 = document.createElement('dev-card');
   devCard2.setAttribute('image', '../images/fei.jpeg');
