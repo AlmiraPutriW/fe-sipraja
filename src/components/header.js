@@ -13,8 +13,8 @@ class HeaderComponent extends HTMLElement {
           <i class="fas fa-bars"></i>
         </div>
         <div class="auth-buttons" id="authButtons">
-          <button class="login" id="loginButton">Login</button>
-          <button class="signup" id="signupButton">Sign Up</button>
+          <button class="login" id="loginButton">Masuk</button>
+          <button class="signup" id="signupButton">Registrasi</button>
         </div>
       </nav>
     </header>
